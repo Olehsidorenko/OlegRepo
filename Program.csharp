@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static int Factorial(int n) => (n == 0 || n == 1) ? 1 : n * Factorial(n - 1);
+
+    static void Main(string[] args)
+    {
+        int num = 5; // Change the number to calculate factorial
+        int result = Factorial(num);
+        Console.WriteLine($"Factorial of {num} is: {result}");
+    }
+}
