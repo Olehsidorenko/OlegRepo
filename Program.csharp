@@ -2,7 +2,7 @@ using System; // main library
 
 class Program_Uno
 {
-    static int Factorial(int n) => (n == 0 || n == 1) ? 1 : n * Factorial(n - 1);
+    static int Factorial(int n) => (n == 0 || n == 1) ? 1 : n * Factorial(n - 1); // factorial function with one line
 
     static void Main(string[] args)
     {
