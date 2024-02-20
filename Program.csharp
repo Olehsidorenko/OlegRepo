@@ -1,6 +1,6 @@
 using System; // main library
 
-class Program_Uno
+class Program_Uno //program
 {
     static int Factorial(int n) => (n == 0 || n == 1) ? 1 : n * Factorial(n - 1); // factorial function with one line
 
